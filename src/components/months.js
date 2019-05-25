@@ -29,8 +29,10 @@ class Months extends Component {
       }
 
       return(
-          <div className="calendar">
+          <div className="months">
+            <div className="months-container">
               {this.renderMonths()}
+            </div>
           </div>
       );
   }

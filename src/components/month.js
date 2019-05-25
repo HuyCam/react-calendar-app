@@ -5,7 +5,7 @@ const Month = (props) => {
     const time = props.time;
 
     return (
-        <button className="month-render" onClick={() => props.accessMonth(time)}>
+        <button className="month-render month" onClick={() => props.accessMonth(time)}>
             {monthNames[props.time.month]}
         </button>
     );

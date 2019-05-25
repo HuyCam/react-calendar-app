@@ -8,7 +8,7 @@ import Promise from 'redux-promise';
 import App from './components/app';
 import reducers from './reducers';
 
-import './style/style.css';
+import './style/main.css';
 
 // React router
 import { BrowserRouter, Route, Switch } from 'react-router-dom';

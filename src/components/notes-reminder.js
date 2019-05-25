@@ -23,16 +23,21 @@ class Notes extends Component {
             });
             return JSXnotes;
         } else {
-            return 'No thing to show yet'
+            return <div className="note-container">
+            <div className="note-title">
+                <h4>
+                No thing to show yet
+                </h4>
+            </div>
+            </div>
         }
-        
-        
     }
 
     render() {
         return(
-            <div>
+            <div id="note">
                 {this.renderNotes()}
+                <div class="warning">This is on development process. In the future user can edit task, delete task and login</div>
             </div>
         );
     }

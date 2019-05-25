@@ -12,7 +12,7 @@ class AddReminder extends Component {
         return(
             <div className={className}>
                 <label>{field.label}</label>
-                <input  type={field.input.name} className="form-control" {...field.input} />
+                <p class="input"><input  type={field.input.name} className="form-control" {...field.input} /></p>
                 <p className="help-text text-danger">{touched ? error : ''}</p>
             </div>
         );
@@ -33,7 +33,7 @@ class AddReminder extends Component {
         const { handleSubmit } = this.props;
         
         return (
-            <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
+            <form onSubmit={handleSubmit(this.onSubmit.bind(this))} className="add-note">
                 <Field 
                     label="Date"
                     name="date"
@@ -51,7 +51,7 @@ class AddReminder extends Component {
                     component={this.renderField}
                 />
                 <button type="submit" className="btn btn-primary">Submit</button>
-                <Link className="btn btn-danger" to="/" >Cancel</Link>
+                <button className="btn-warning"><Link className="btn btn-danger" to="/" >Cancel</Link></button>
             </form>
         );
     }

@@ -28,19 +28,17 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <div className="row">
-          <div className="col-md-6">
+          <div >
             <Calendar />
             <Link className="btn btn-primary" to="/reminder/add">
               Add Reminder
             </Link>
           </div>
-          <div className="col-md-6">
+          <div>
             <Notes />
             <StoreChecking />
           </div>
         </div>
-      </div>
     );
   }
 }

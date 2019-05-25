@@ -10,7 +10,7 @@ class StoreChecking extends Component {
     render() {
 
         return (
-            <div>This is on developement process</div>
+            <div></div>
         )
     }
 }
