@@ -1,0 +1,125 @@
+
+
+body {
+    background-image: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+}
+
+#app {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* calendar */
+#calendar {
+    width: 21em;
+    background-color: white;
+    padding-top: .5em;
+    box-shadow: 5px 5px 10px 1px;
+    border-radius: 5px;
+}
+
+.title {
+    text-align: center;
+}
+/* day type rule */
+.day-name {
+    font-weight: bold;
+}
+
+.not-belong {
+    color: rgb(243, 243, 243);
+}
+.weekend {
+    color: rgb(255, 49, 45);
+}
+
+
+.today {
+    background-color: rgb(117, 216, 255);
+}
+
+/* navigation bar */
+.navigation {
+    text-align: center;
+}
+.navigation-info {
+    display: inline-block;
+    width: 50%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.nav-btn {
+    display: inline-block;
+}
+button {
+    height: 3em;
+    background-color: white;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+.calendar {
+    width: 100%;
+}
+
+.day-render {
+    display: inline-block;
+    padding: .2em;
+    text-align: center;
+    width: 14.285%;
+    margin-top: .1em;
+    box-sizing: border-box;
+}
+
+.day-render:focus {
+    outline: none;
+    color: white !important;
+    background-color: rgb(221, 221, 221);
+}
+
+/* design the last row of days
+    start date and end date
+    make those day has border radius
+*/
+.end-corner {
+    border-radius: 0 0 5px 0;
+}
+
+.start-corner {
+    border-radius: 0 0 0 5px;
+}
+
+/* months style */
+.month-render {
+    padding: .2em;
+    width: 5.25em;
+    text-align: center;
+    margin-top: .1em;
+}
+
+/* Notes style */
+.note-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0;
+    margin-top: 0.5em;
+}
+.note-title, .note-body {
+    padding-left: 10%;
+}
+.note-title {
+    border-bottom: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(162, 195, 249);
+}
+
+.have-note {
+    border-top: 2px solid red;
+}
