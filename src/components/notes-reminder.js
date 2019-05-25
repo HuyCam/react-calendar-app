@@ -8,7 +8,13 @@ class Notes extends Component {
     renderNotes() {
         const reminders = this.props.reminders;
         if (!reminders || _.isEmpty(reminders)) {
-            return 'Data is loading...';
+            return <div className="note-container">
+            <div className="note-notification">
+                <h4>
+                Data is loading
+                </h4>
+            </div>
+            </div>;
         }
 
         const notesCollection = _.find(reminders, (notes) => {
@@ -24,7 +30,7 @@ class Notes extends Component {
             return JSXnotes;
         } else {
             return <div className="note-container">
-            <div className="note-title">
+            <div className="note-notification">
                 <h4>
                 No thing to show yet
                 </h4>

@@ -164,7 +164,18 @@ button:focus {
 /* Notes style */
 #note {
     width: $calendar-width;
+
+    .note-notification {
+        display: flex;
+        background-color: #ff99cc;
+        align-items: center;
+        height: $note-title-height;
+        border-radius: 5px;
+        padding-left: 10%;
+    }
 }
+
+
 
 .note-container {
     width: $calendar-width;

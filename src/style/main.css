@@ -154,6 +154,14 @@ button:focus {
 #note {
   width: 21em;
 }
+#note .note-notification {
+  display: flex;
+  background-color: #ff99cc;
+  align-items: center;
+  height: 3em;
+  border-radius: 5px;
+  padding-left: 10%;
+}
 
 .note-container {
   width: 21em;
