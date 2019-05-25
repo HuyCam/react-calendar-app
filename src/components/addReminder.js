@@ -51,7 +51,7 @@ class AddReminder extends Component {
                     component={this.renderField}
                 />
                 <button type="submit" className="btn btn-primary">Submit</button>
-                <button className="btn-warning"><Link className="btn btn-danger" to="/" >Cancel</Link></button>
+                <Link className="btn btn-warning" to="/" >Cancel</Link>
             </form>
         );
     }
