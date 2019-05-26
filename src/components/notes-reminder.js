@@ -43,7 +43,7 @@ class Notes extends Component {
         return(
             <div id="note">
                 {this.renderNotes()}
-                <div class="warning">This is on development process. In the future user can edit task, delete task and login</div>
+                <div class="warning">This is in the development process. In the future, user can edit tasks, delete tasks and log in.</div>
             </div>
         );
     }

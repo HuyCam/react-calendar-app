@@ -195,7 +195,7 @@ button:focus {
 }
 
 .have-note {
-  border-top: 2px solid red;
+  border-bottom: 2px solid red;
 }
 
 .warning {
