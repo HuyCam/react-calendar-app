@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 A calendar app that a user can add notes and reminders.
 
 ## Description
-App utilize React, Redux. Nodejs and MongoDB working at the backend;
+App utilize React, Redux. Nodejs and MongoDB working at the backend [Note App API] (https://github.com/HuyCam/Calendar-note-API);
 
 ## Available Scripts
 
