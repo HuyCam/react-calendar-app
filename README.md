@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Purpose
+A calendar app that a user can add notes and reminders.
+
+## Description
+App utilize React, Redux. Nodejs and MongoDB working at the backend;
+
 ## Available Scripts
 
 In the project directory, you can run:
