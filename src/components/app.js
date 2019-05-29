@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Calendar from './calendar';
 import Notes from './notes-reminder';
 import { updateMonthYear, updateToday, toggleMode, fetchNotes, selectedDate } from '../actions/index';
-import { MONTHS_MODE, DAYS_MODE} from '../actions/index';
+import { DAYS_MODE} from '../actions/index';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 

@@ -13,6 +13,7 @@ import './style/main.css';
 // React router
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import AddReminder from './components/addReminder';
+import NoteEditor from './components/noteEditor';
 
 const createStoreWithMiddleware = applyMiddleware(Promise)(createStore);
 
@@ -23,6 +24,7 @@ ReactDOM.render(
       <div id="app">
         <Switch>
           <Route path="/reminder/add" component={AddReminder} />
+          <Route path='/edit' component={NoteEditor} />
           <Route path="/" component={App} />
         </Switch>
       </div>

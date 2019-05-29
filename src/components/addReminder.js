@@ -12,7 +12,7 @@ class AddReminder extends Component {
         return(
             <div className={className}>
                 <label>{field.label}</label>
-                <p class="input"><input  type={field.input.name} className="form-control" {...field.input} /></p>
+                <p className="input"><input  type={field.input.name} className="form-control" {...field.input} /></p>
                 <p className="help-text text-danger">{touched ? error : ''}</p>
             </div>
         );

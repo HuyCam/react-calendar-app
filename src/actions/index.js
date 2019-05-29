@@ -6,6 +6,8 @@ export const TOGGLE_MODE = 'TOGGLE_MODE';
 export const GET_NOTES = 'GET_NOTES';
 export const SELECTED_DATE = 'SELECTED_DATE';
 export const POST_NOTE = 'POST_NOTE';
+export const EDIT_NOTE = 'EDIT_NOTE';
+export const DONE_EDIT = 'DONE_EDIT';
 
 // display mode
 export const MONTHS_MODE = 'MONTHS';
@@ -55,4 +57,17 @@ export function selectedDate(dateString) {
         type: SELECTED_DATE,
         payload: dateString
     };
+}
+
+export const editNote = (date) => {
+    return {
+        type: EDIT_NOTE,
+        payload: date
+    }
+}
+
+export const finishEditing = () => {
+    return {
+        type: DONE_EDIT
+    }
 }

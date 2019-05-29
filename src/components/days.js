@@ -48,7 +48,6 @@ class Days extends Component {
                 // In the last row of days, two dates at the far end opposite side have a redius corner
                 if (start.getTime() === end.getTime()) {
                     cornerType = 'end-corner';
-                    console.log('start equal end');
                 } // check if this is the first day of the week in the last week on calendar
                 // 518400000 is the difference of 7 days
                 else if (start.getTime() === end.getTime() - 518400000) {
