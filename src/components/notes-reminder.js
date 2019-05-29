@@ -43,7 +43,7 @@ class Notes extends Component {
         return(
             <div id="note">
                 {this.renderNotes()}
-                <div class="warning">The user can now add, edit and delete note</div>
+                <div className="warning">The user can now add, edit and delete note</div>
             </div>
         );
     }
